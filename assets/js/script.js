@@ -4,7 +4,7 @@ lottie.loadAnimation({
   renderer: "svg",
   loop: true,
   autoplay: true,
-  path: "scroll-black.json",
+  path: "../img/scroll-black.json",
 });
 
 //Fade in the scroll animation on load
