@@ -141,6 +141,7 @@ body {
     transition:
         transform 0.3s ease,
         box-shadow 0.3s ease;
+    align-self: center;
 }
 
 .btn:hover {
@@ -163,6 +164,13 @@ body {
     padding-bottom: 150px;
     padding-left: 400px;
     padding-right: 400px;
+    position: relative;
+    justify-content: center;
+}
+
+.main--long {
+    padding-top: 110px;
+    padding-bottom: 150px;
     position: relative;
     justify-content: center;
 }
@@ -196,6 +204,13 @@ body {
 .text {
     font-size: 20px;
     margin-bottom: 20px;
+}
+
+.project__text {
+    font-size: 30px;
+    margin: 20px;
+    color: black;
+    font-weight: bold;
 }
 
 .section--dark {
@@ -276,6 +291,13 @@ body {
     text-align: center;
 }
 
+.title--black {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
 .skills-list {
     display: flex;
     flex-wrap: wrap;
@@ -332,4 +354,39 @@ body {
 .general-skills,
 .creative-skills {
     margin: 100px 200px;
+}
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap:10px
+}
+
+.project {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project__image {
+    outline: auto;
+    margin-bottom: 20px;
+}
+
+.btn--project {
+    background-color: #0d00ff;
+    color: white;
+    border-radius: 5px;
+    width: 150px; /* Set a fixed width */
+    height: 50px;
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    font-size: 20px;
 }
